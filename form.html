@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form.com</title>
+</head>
+<body bgcolor="black" style="font-size: 20px;color: red;">
+	<h1><b><u><center><font color="blue">FORM</font></center></u></b></h1>
+	<br><br><br>
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+		<table border="3" cellspacing="1" align="center" style="border-radius: 10px; border-color: white;">
+			<tr>
+				<td rowspan="2" valign="top">Upload the file<br><input type="file" name="fileToUpload"
+					id="fileToUpload"></td>
+				<td><center>New User</center></td>
+			</tr>
+			<tr>
+				<td>
+					<table border="0" cellspacing="5">
+						<tr>
+							<td>Name</td>
+							<td><input type="text" name="name"></td>
+							<td></td>
+							<td>Day &nbsp&nbspMonth &nbspYear</td>
+						</tr>
+						<tr>
+							<td>Father's Name</td>
+							<td><input type="text" name="fanme"></td>
+							<td>Date Of Birth</td>
+							<td><input type="text" name="day" size="2"><input type="text" name="month" size="2"><input type="text" name="year" size="2"></td>
+						</tr>
+						<tr>
+							<td>Mother's Name</td>
+							<td><input type="text" name="mname"></td>
+							<td>Gender</td>
+							<td><input type="radio" name="male">Male &nbsp <input type="radio" name="female">Female</td>
+						</tr>
+						<tr>
+							<td>Mobile No.</td>
+							<td><input type="number" name="phone"></td>
+						</tr>
+						<tr>
+							<td>Qualifications</td>
+							<td><input type="text" name="qualifications"></td>
+							<td></td>
+							<td><input type="submit" value="Upload Image" name="Submit"></td>
+						</tr>
+						<tr>
+							<td>Email Id</td>
+							<td><input type="email" name="emailid"></td>
+						</tr>
+						<tr>
+							<td>Address</td>
+							<td><input type="text" name="add"></td>
+						</tr>
+						<tr>
+							<td>Category</td>
+							<td>
+								<select>
+									<option>Select</option>
+									<option>General</option>
+									<option>OBC</option>
+									<option>SC/ST</option>
+									<option>Others</option>							
+								</select>
+							</td>
+						</tr>
+					</table>
+			    </td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
